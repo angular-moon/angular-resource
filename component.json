@@ -1,0 +1,15 @@
+{
+    "version": "1.3.0",
+    "description": "提供与RESTful服务的交互支持",
+    "name": "angular-resource",
+    "main": "angular-resource.js",
+    "dependencies": [
+        "angular"
+    ],
+    "shim": {
+        "angular-resource.js": {
+            "deps": ["angular"],
+            "exports": "'ngResource'"
+        }
+    }
+}
